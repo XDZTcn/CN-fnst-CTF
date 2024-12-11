@@ -1,11 +1,10 @@
-// 假设这是您的团队成员数据
 const teamMembers = [
-    { id: 'SUNctf2024120001', name: '泷羽Sec', position: '优秀出题人', photo: '/img/SUNctf2024120001.png' },    
-    { id: 'SUNctf2024120002', name: 'Knight', position: '优秀出题人', photo: '/img/SUNctf2024120002.png' },  
-    { id: 'SUNctf2024120003', name: '星极', position: '优秀出题人', photo: '/img/SUNctf2024120003.png' },    
-    { id: 'SUNctf2024120004', name: '明明', position: '优秀出题人', photo: '/img/SUNctf2024120004.png' },
-    { id: 'SUNctf2024120005', name: '时针', position: '优秀出题人', photo: '/img/SUNctf2024120005.png' },
-    { id: 'SUNctf2024120006', name: '初音', position: '优秀出题人', photo: '/img/SUNctf2024120006.png' },
+    { id: 'SUNctf2024120001', name: '泷羽Sec', position: '优秀出题人', photo: 'img/SUNctf2024120001.png' },    
+    { id: 'SUNctf2024120002', name: 'Knight', position: '优秀出题人', photo: 'img/SUNctf2024120002.png' },  
+    { id: 'SUNctf2024120003', name: '星极', position: '优秀出题人', photo: 'img/SUNctf2024120003.png' },    
+    { id: 'SUNctf2024120004', name: '明明', position: '优秀出题人', photo: 'img/SUNctf2024120004.png' },
+    { id: 'SUNctf2024120005', name: '时针', position: '优秀出题人', photo: 'img/SUNctf2024120005.png' },
+    { id: 'SUNctf2024120006', name: '初音', position: '优秀出题人', photo: 'img/SUNctf2024120006.png' },
 ];
 
 // 手动设置开始时间为2024年7月17日0时0分0秒
