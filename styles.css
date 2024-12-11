@@ -1,0 +1,99 @@
+/* 基本的样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* 输入框和按钮样式 */
+#searchBox {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 信息盒子的样式 */
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33% - 20px); /* 默认每行显示3个盒子 */
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* 隐藏所有信息盒子 */
+.hidden {
+    display: none;
+}
+
+.boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* 增加盒子之间的间距 */
+}
+
+/* 媒体查询，根据屏幕宽度调整每行盒子的数量 */
+@media (max-width: 1200px) {
+    .box {
+        width: calc(50% - 20px); /* 每行显示2个盒子 */
+    }
+}
+
+@media (max-width: 800px) {
+    .box {
+        width: calc(100% - 20px); /* 每行显示1个盒子 */
+    }
+}
+
+#noResult {
+    color: #666;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* 底部版权信息样式 */
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
